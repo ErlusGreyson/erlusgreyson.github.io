@@ -56,13 +56,6 @@ body {
   padding-bottom: .3rem;
   text-transform: uppercase;
 }
-.caption h3 {
-  font-size: 1.5rem;
-  padding-bottom: 1.6rem;
-}
-.caption h3 a {
-  color: black !important;
-}
 .container {
   width: 100%;
   max-width: 100%;
