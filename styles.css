@@ -1,0 +1,138 @@
+body {
+  overflow-x: hidden;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+}
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0)!important;
+}
+.navbar-brand {
+  font-style: italic;
+  color: black !important;
+  margin-left: 10%;
+}
+.navbar-nav {
+  margin-right: 15%;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #48a5db;
+}
+.navbar .navbar-toggler {
+  margin-right: 10%;
+  border-color: rgba(0,0,0,0) !important;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.home-inner {
+  background-color: #d8a224;
+  min-height: 900px;
+  background-size: cover;
+}
+.photo-container {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0)!important;
+}
+.photo {
+  border-radius: 50%;
+  max-width: 9.5rem;
+  max-height: 9.5rem;
+  z-index: 1;
+  top: 10%;
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: black;
+}
+.caption h1 {
+  letter-spacing: .1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: .3rem;
+  text-transform: uppercase;
+}
+.caption h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.6rem;
+}
+.caption h3 a {
+  color: black !important;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  background-color: #262520;
+}
+.about {
+  width: 100%;
+  max-width: 100%;
+  background-color: #E9EDEC;
+}
+.narrow {
+  width: 80%;
+  font-family: 'Rubik', sans-serif;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+.narrow p {
+  padding-top: .5rem;
+  font-size: 1.3rem;
+}
+.hr-about {
+  margin-top: 0;
+  width: 250px;
+  border-top: .11rem solid #a9aaad;
+}
+.projects {
+  width: 100%;
+  max-width: 100%;
+  background-color: #E9EDEC;
+}
+.hr-projects {
+  margin-top: 0;
+  width: 250px;
+  border-top: .11rem solid #a9aaad;
+}
+footer {
+  font-family: 'Rubik', sans-serif;
+  background-color: #495260;
+  color: white;
+  padding: 2rem 0 2rem;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #48a5db;
+}
+footer i {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid white;
+  margin-top: 3rem;
+}
