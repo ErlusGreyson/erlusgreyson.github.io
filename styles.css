@@ -45,7 +45,7 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 30%;
+  top: 40%;
   z-index: 1;
   color: black;
 }
@@ -87,22 +87,17 @@ body {
   padding-top: .5rem;
   font-size: 1.3rem;
 }
-.hr-about {
-  margin-top: 0;
-  width: 250px;
-  border-top: .11rem solid #a9aaad;
-}
 footer {
   font-family: 'Rubik', sans-serif;
-  background-color: #495260;
+  background-color: #424242;
   color: white;
   padding: 2rem 0 2rem;
 }
 footer h4 {
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
 }
 hr.socket {
   width: 100%;
   border-top: .2rem solid white;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }

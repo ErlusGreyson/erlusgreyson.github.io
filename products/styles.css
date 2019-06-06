@@ -36,54 +36,24 @@ body {
 .navbar .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-.home-inner {
+.products {
+  padding-top: 10%;
   background-color: #d8a224;
-  min-height: 900px;
-  background-size: cover;
-}
-.caption {
   width: 100%;
   max-width: 100%;
-  position: absolute;
-  top: 30%;
-  z-index: 1;
   color: black;
 }
-.caption h1 {
-  letter-spacing: .1rem;
-  font-size: 2.5rem;
-  font-weight: 700;
-  padding-bottom: .3rem;
-  text-transform: uppercase;
-}
-.container {
+.products img {
   width: 100%;
-  max-width: 100%;
-  background-color: #262520;
+  border-radius: 10%;
 }
-.about {
+.products p {
+  padding-top: 1.5rem;
   width: 100%;
-  max-width: 100%;
-  background-color: #E9EDEC;
 }
-.narrow {
-  width: 80%;
-  font-family: 'Rubik', sans-serif;
-  margin: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.narrow h1 {
-  font-size: 2.4rem;
-}
-.narrow p {
-  padding-top: .5rem;
-  font-size: 1.3rem;
-}
-.hr-about {
-  margin-top: 0;
-  width: 250px;
-  border-top: .11rem solid #a9aaad;
+.product-cell {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 footer {
   font-family: 'Rubik', sans-serif;
