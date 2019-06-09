@@ -88,16 +88,19 @@ body {
   font-size: 1.3rem;
 }
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   font-family: 'Rubik', sans-serif;
-  background-color: #424242;
+  background-color: #495260;
   color: white;
-  padding: 2rem 0 2rem;
+  padding: 1rem 0 1rem;
 }
 footer h4 {
-  padding-bottom: .5rem;
+  padding-bottom: .3rem;
 }
 hr.socket {
   width: 100%;
-  border-top: .2rem solid white;
-  margin-top: 2rem;
+  border-top: .1rem solid white;
+  margin-top: 1rem;
 }
