@@ -56,7 +56,6 @@ body {
     padding-top: 6rem;
     background-image: url("./image/shallow-weed.jpg");
     height: 100vh;
-    width: 100vw;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,16 +90,13 @@ body {
   font-size: 1.2rem;
 }
 .container {
-  width: 100%;
   max-width: 100%;
 }
 .deals {
     scroll-snap-align: start;
     height: 100vh;
-    width: 100vw;
 }
 .about {
-  width: 100%;
   max-width: 100%;
   background-color: #E9EDEC;
 }
