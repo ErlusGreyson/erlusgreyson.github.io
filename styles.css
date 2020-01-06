@@ -63,14 +63,14 @@ body {
 .mainscreen img {
     justify-content: center;
     align-items: center;
-    height: 425px;
-    width: 425px;
+    height: 400px;
+    width: 400px;
 }
 .mainscreen h2 {
     letter-spacing: .5rem;
     font-size: 3.4rem;
     font-weight: 700;
-    margin-top: -.5rem;
+    margin-top: 1rem;
     text-transform: uppercase;
     color: white;
 }
