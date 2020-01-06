@@ -56,11 +56,13 @@ body {
     background-image: url("./image/shallow-weed.jpg");
     height: 100vh;
     width: 100vw;
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
 }
 .mainscreen img {
+    text-align: center;
     height: 400px;
     width: 400px;
 }
