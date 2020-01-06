@@ -61,8 +61,6 @@ body {
     max-width: 100%;
 }
 .mainscreen img {
-    justify-content: center;
-    align-items: center;
     height: 400px;
     width: 400px;
 }
