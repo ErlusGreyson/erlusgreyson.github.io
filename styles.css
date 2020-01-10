@@ -66,7 +66,7 @@ body {
 }
 .mainscreen img {
     text-align: center;
-    height: auto;
+    height: 380px;
     width: 380px;
     max-width: 100% !important;
 }
