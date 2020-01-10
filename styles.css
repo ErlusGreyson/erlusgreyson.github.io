@@ -66,9 +66,10 @@ body {
     max-width: 100%;
 }
 .mainscreen img {
+    margin: 0 !important;
     text-align: center;
-    height: 380px;
-    width: 380px;
+    height: 350px;
+    width: 350px;
     max-width: 100% !important;
 }
 .mainscreen h2 {
