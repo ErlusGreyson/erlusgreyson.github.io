@@ -103,6 +103,9 @@ body {
     scroll-snap-align: start;
     height: 100vh;
 }
+.row {
+    margin: 0 !important;
+}
 .footer {
   bottom: 0;
   font-family: 'Rubik', sans-serif;
