@@ -27,10 +27,10 @@ body {
   width: 45px;
 }
 .navbar-brand h2 {
-    padding-top: .3rem;
-    float: right;
-    padding-left: .5rem;
-    color: white;
+  padding-top: .3rem;
+  float: right;
+  padding-left: .5rem;
+  color: white;
 }
 .navbar-nav {
   margin-right: 5%;
@@ -55,7 +55,6 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .mainscreen{
-    scroll-snap-align: start;
     margin: 0 !important;
     padding-top: 6rem;
     background-image: url("./image/shallow-weed.jpg");
@@ -97,12 +96,52 @@ body {
 .caption h4 {
     font-size: 1.2rem;
 }
+.secondscreen h1 {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.secondscreen h2 {
+    padding-bottom: 1rem;
+}
+.secondscreen h3 {
+    padding-bottom: .5rem;
+}
+.secondscreen {
+    height: 100vh;
+}
+.prdbtn {
+    margin-top: 3rem;
+}
+.hours {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+.hours h1 {
+    padding-bottom: 5rem;
+}
+.hours h3 {
+    padding-bottom: 1rem;
+}
+.location {
+    height: 100vh;
+}
+.location h1 {
+    padding-top: 4rem;
+}
 .container {
     max-width: 100vw;
 }
-.deals {
-    scroll-snap-align: start;
-    height: 100vh;
+.map {
+    padding-top: 2rem;
+}
+.mapdes h1{
+    padding-top: 2rem;
+}
+.mapdes h2{
+    padding-top: 2rem;
+}
+.mapdes h2{
+    padding-bottom: 1rem;
 }
 .row {
     margin: 0 !important;
@@ -110,9 +149,8 @@ body {
 .footer {
   bottom: 0;
   font-family: 'Rubik', sans-serif;
-  background-color: #495260;
   color: white;
-  padding: 0;
+  padding: 1.5rem 0 1.5rem 0;
   z-index: 3;
 }
 .footer h4 {
