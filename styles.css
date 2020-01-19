@@ -106,9 +106,6 @@ body {
 .secondscreen h3 {
     padding-bottom: .5rem;
 }
-.secondscreen {
-    height: 100vh;
-}
 .prdbtn {
     margin-top: 3rem;
 }
@@ -122,14 +119,8 @@ body {
 .hours h3 {
     padding-bottom: 1rem;
 }
-.location {
-    height: 100vh;
-}
 .location h1 {
     padding-top: 4rem;
-}
-.container {
-    max-width: 100vw;
 }
 .map {
     padding-top: 2rem;
