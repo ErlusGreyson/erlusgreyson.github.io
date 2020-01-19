@@ -88,11 +88,6 @@ body {
     padding-top: .6rem;
     text-transform: uppercase;
 }
-.caption {
-    margin: 0 !important;
-    z-index: 1;
-    color: black;
-}
 .caption h4 {
     font-size: 1.2rem;
 }
@@ -106,15 +101,24 @@ body {
 .secondscreen h3 {
     padding-bottom: .5rem;
 }
+.secondscreen {
+    padding-left: 0;
+    padding-right: 0;
+}
+.second {
+    padding-left: 0;
+    padding-right: 0;
+}
 .prdbtn {
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .hours {
-    padding-right: 2rem !important;
-    padding-left: 2rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
 }
 .hours h1 {
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 .hours h3 {
     padding-bottom: 1rem;
@@ -122,22 +126,30 @@ body {
 .location h1 {
     padding-top: 4rem;
 }
-.map {
+.locationbig h1 {
+    font-size: 3rem;
+}
+.location {
+    padding-bottom: 4rem;
+}
+.map iframe {
     padding-top: 2rem;
+    height: 400px;
+    width: 400px;
 }
 .mapdes h1{
     padding-top: 2rem;
 }
 .mapdes h2{
     padding-top: 2rem;
-}
-.mapdes h2{
     padding-bottom: 1rem;
 }
 .row {
     margin: 0 !important;
 }
 .footer {
+    margin-left: 0;
+    margin-right: 0;
   bottom: 0;
   font-family: 'Rubik', sans-serif;
   color: white;
@@ -147,8 +159,8 @@ body {
 .footer h4 {
   padding-bottom: .2rem;
 }
-hr.socket {
-  width: 100vw;
+.socket {
+  width: 100%;
   border-top: .1rem solid white;
   margin-top: .3rem;
 }
