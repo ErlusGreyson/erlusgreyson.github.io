@@ -151,6 +151,13 @@ body {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+.row {
+    margin: 0 !important;
+}
+.nomarg {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .footer {
     margin-left: 0;
     margin-right: 0;

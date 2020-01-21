@@ -2,13 +2,13 @@ firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
 
     document.getElementById("log-in-nav").style.display = "none";
-    document.getElementById("cart-nav").style.display = "block";
-    document.getElementById("log-out-nav").style.display = "block";
+    document.getElementById("cart-nav").style.display = "flex";
+    document.getElementById("log-out-nav").style.display = "flex";
 
     var user = firebase.auth().currentUser;s
 
   } else {
-      document.getElementById("log-in-nav").style.display = "block";
+      document.getElementById("log-in-nav").style.display = "flex";
       document.getElementById("cart-nav").style.display = "none";
       document.getElementById("log-out-nav").style.display = "none";
   }

@@ -67,10 +67,10 @@ body {
 .logincard {
     margin-top: -6rem !important;
     padding-top: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 1rem;
-    background-color: rgba(0, 0, 0, .2) !important;
+    background-color: rgba(30, 30, 30, .2) !important;
 }
 .logincard label {
     font-size: 2rem;
@@ -85,6 +85,9 @@ body {
 .lower {
     display: block;
 }
+.row {
+    margin: 0 !important;
+}
 .footer {
     margin-left: 0;
     margin-right: 0;
@@ -96,6 +99,10 @@ body {
 }
 .footer h4 {
     padding-bottom: .2rem;
+}
+.nomarg {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 .socket {
     width: 100%;
