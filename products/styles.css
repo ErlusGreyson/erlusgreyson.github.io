@@ -58,32 +58,21 @@ body {
     margin: 0 !important;
     padding-top: 6rem;
     background-image: url("../image/shallow-weed.jpg");
-    height: 100vh;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
 }
-.logincard {
-    margin-top: -6rem !important;
-    padding-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    background-color: rgba(30, 30, 30, .2) !important;
+.mainscreen h1 {
+    font-size: 3.5rem;
 }
-.logincard label {
-    font-size: 2rem;
+.card {
+    height: 450px;
+    width: 450px;
 }
-.logincard input {
-    width: 300px;
-}
-.logincard a {
-    color: white;
-    margin-top: 2rem;
-}
-.lower {
-    display: block;
+.card-img-top {
+    height: 180px;
+    width: 180px;
 }
 .row {
     margin: 0 !important;
@@ -109,89 +98,9 @@ body {
     border-top: .1rem solid white;
     margin-top: .3rem;
 }
-.card {
-  width: 90%;
-  height: 150px;
-  background-color: #fff;
-  background: linear-gradient(#f8f8f8, #fff);
-  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  padding: 0 !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-.card h2 {
-  text-align: center;
-}
-.card .additional {
-  position: absolute;
-  width: 150px;
-  height: 100%;
-  background: linear-gradient(#3d6d39, #40753b);
-  transition: width 0.4s;
-  overflow: hidden;
-  z-index: 2;
-  color: white;
-}
-.card:hover .additional {
-  width: 100%;
-  border-radius: 0 5px 5px 0;
-}
-.card .additional .user-card {
-  width: 150px;
-  height: 100%;
-  position: relative;
-  float: left;
-}
-.card .additional .user-card::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 10%;
-  right: -2px;
-  height: 80%;
-  border-left: 2px solid rgba(0,0,0,0.025);*/
-}
-.card .additional .user-card img {
-  height: 150px;
-  width: 150px;
-}
-.card .additional .more-info {
-  width: 250px;
-  float: left;
-  position: absolute;
-  top: 0;
-  left: 148px;
-  height: 100%;
-}
-.card .additional .coords {
-  margin: 0 1rem;
-  color: #fff;
-  font-size: 1rem;
-}
 .small-font {
   font-size: 1rem;
 }
-.card .general {
-  width: 250px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  box-sizing: border-box;
-  padding: 1rem;
-  padding-top: 0;
-  padding-bottom: 0;
-}
 .smaller-font {
   font-size: .9rem;
-}
-.card .general .more {
-  position: absolute;
-  bottom: .1rem;
-  right: 1rem;
-  font-size: 0.8rem;
 }
