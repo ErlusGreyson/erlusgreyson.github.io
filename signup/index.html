@@ -10,7 +10,7 @@
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 <!--- Navigation Bar and Main Home Screen --->
-<div id="login">
+<div id="signup">
     <div class="container align-items-center">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand align-items-center" href="#home"><img src="../image/budz_leaf_new_transparent_white.png" class="image-responsive"><h2>BUDZ</h2></a>
@@ -25,10 +25,10 @@
                         <a class="nav-link" href="../products/index.html">Products</a>
                     </li>
                     <li class="nav-item" id="sign-up-nav">
-                        <a class="nav-link" id="sign-up-nav" href="../signup/index.html">Sign Up</a>
+                        <a class="nav-link" id="sign-up-nav" href="#signup">Sign Up</a>
                     </li>
                     <li class="nav-item" id="log-in-nav">
-                        <a class="nav-link" id="log-in-nav" href="#login">Login</a>
+                        <a class="nav-link" id="log-in-nav" href="../login/index.html">Login</a>
                     </li>
                     <li class="nav-item" id="cart-nav">
                         <a class="nav-link" id="cart-nav" href="../cart/index.html">Cart</a>
@@ -52,10 +52,14 @@
                     <input type="password" class="form-control" id="password_input" name="password">
                 </div>
                 <div class="form-group col">
-                    <button onclick="login(); return false;" class="prdbtn btn btn-outline-light btn-lg">Login</button>
+                    <label class="form-control-label" for="form-group-input">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm_password_input" name="password">
                 </div>
                 <div class="form-group col">
-                    <a class="lower" href="../register/index.html">Not Registered? Click here to sign up.</a>
+                    <button onclick="signup(); return false;" class="prdbtn btn btn-outline-light btn-lg">Sign Up</button>
+                </div>
+                <div class="form-group col">
+                    <a class="lower" href="../login/index.html">Already Registered? Click here to log in.</a>
                 </div>
             </form>
         </div>
