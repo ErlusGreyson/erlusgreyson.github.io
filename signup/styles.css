@@ -78,6 +78,7 @@ body {
 .logincard a {
     color: white;
     margin-top: 1.5rem;
+    font-size: 1.3rem;
 }
 .lower {
     display: block;
