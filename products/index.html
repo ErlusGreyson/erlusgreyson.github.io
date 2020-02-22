@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <title>Budz CBD Dispensary</title>
 </head>
@@ -40,127 +41,220 @@
             </div>
         </nav>
     </div>
-    <div class="mainscreen justify-content-center text-center">
-        <div class="row">
-            <div class="col-12 text-center align-items-center text-white">
-                <h1>Products</h1>
+    <section class="section-content padding-y mainscreen">
+        <div class="container">
+            <div class="row">
+	            <aside class="col-md-3">
+                    <div class="card clearcard">
+	                    <article class="filter-group">
+    		                <header class="card-header">
+        			            <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+        				            <i class="icon-control fa fa-chevron-down my-auto"></i>
+        				            <h6 class="title dropd my-auto">Product type</h6>
+        			            </a>
+    		                </header>
+    		                <div class="filter-content collapse show" id="collapse_1" style="">
+    			                <div class="card-body">
+    				                <form class="pb-3">
+    				                    <div class="input-group">
+    				                        <input type="text" class="form-control" placeholder="Search">
+    				                        <div class="input-group-append">
+    				                            <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+    				                        </div>
+    				                    </div>
+    				                </form>
+                    				<ul class="list-menu">
+    				                    <li><a class="text-white" href="#">CBD</a></li>
+                        				<li><a class="text-white" href="#">Glassware </a></li>
+                        				<li><a class="text-white" href="#">Flowers</a></li>
+                        			</ul>
+    			                </div> <!-- card-body.// -->
+                            </div>
+	                    </article> <!-- filter-group  .// -->
+                    	<article class="filter-group">
+                    		<header class="card-header">
+                    			<a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    				<i class="icon-control fa fa-chevron-down my-auto"></i>
+                    				<h6 class="title dropd my-auto">Price range </h6>
+                    			</a>
+                    		</header>
+                    		<div class="filter-content collapse show" id="collapse_2" style="">
+                    			<div class="card-body">
+                    				<div class="form-row">
+                        				<div class="form-group col-md-6">
+                        				  <label class="text-white">Min</label>
+                        				  <input class="form-control" placeholder="$0" type="number">
+                        				</div>
+                        				<div class="form-group text-right col-md-6">
+                        				  <label class="text-white">Max</label>
+                        				  <input class="form-control" placeholder="$500" type="number">
+                        				</div>
+                    				</div> <!-- form-row.// -->
+                    				<button class="btn btn-block btn-outline-light">Apply</button>
+                    			</div><!-- card-body.// -->
+                    		</div>
+                    	</article> <!-- filter-group .// -->
+                    </div> <!-- card.// -->
+	            </aside> <!-- col.// -->
+	            <main class="col-md-9 text-center">
+                    <header class="border-bottom mb-4 pb-3">
+                    		<div class="form-inline">
+                    			<span class="mr-md-auto text-white">32 Items found </span>
+                    		</div>
+                    </header><!-- sect-heading -->
+
+                    <div class="row">
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/barry_white.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Barry White</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$15</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/bluedream.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Blue Dream</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$20</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/gorilla_glue.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Gorilla Glue</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/kong.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Kong</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/mendo_breath.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Mendo Breath</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/purple_hindu.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Purple Hindu</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/purple_og.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Purple OG</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+
+                    	<div class="col-md-4">
+                    		<figure class="card card-product-grid">
+                    			<div class="img-wrap">
+                    				<img class="contain-image" src="../image/royal_gorilla.jpg">
+                    			</div> <!-- img-wrap.// -->
+                    			<figcaption class="info-wrap">
+                    				<div class="fix-height">
+                    					<a href="#" class="title">Royal Gorilla</a>
+                    					<div class="price-wrap mt-2">
+                    						<span class="price">$10</span>
+                    					</div> <!-- price-wrap.// -->
+                    				</div>
+                    				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                    			</figcaption>
+                    		</figure>
+                    	</div> <!-- col.// -->
+                    </div> <!-- row end.// -->
+
+
+                    <nav class="mt-4" aria-label="Page navigation sample">
+                      <ul class="pagination">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                    </nav>
+                </main> <!-- col.// -->
             </div>
-        </div>
-        <div class="row">
-            <div class="container nopad">
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                  <div class="card minmarg">
-                    <img class="card-img" src="../image/kong.jpg" alt="Weed">
-                    <div class="card-img-overlay d-flex justify-content-end">
-                      <a href="#" class="card-link text-danger like">
-                        <i class="fas fa-heart"></i>
-                      </a>
-                    </div>
-                    <div class="card-body">
-                      <h4 class="card-title">Kong</h4>
-                      <h6 class="card-subtitle mb-2 text-muted">Type: Indica</h6>
-                      <p class="card-text">
-                        Kong Marijuana</p>
-                      <div class="options d-flex flex-fill">
-                         <select class="custom-select mr-1">
-                            <option selected>Size</option>
-                            <option value="1">1G</option>
-                            <option value="2">1/8</option>
-                            <option value="3">1/4</option>
-                            <option value="3">1/2</option>
-                            <option value="3">oz</option>
-                        </select>
-                        <select class="custom-select ml-1">
-                            <option selected>Size</option>
-                            <option value="1">41</option>
-                            <option value="2">42</option>
-                            <option value="3">43</option>
-                        </select>
-                      </div>
-                      <div class="buy d-flex justify-content-between align-items-center">
-                        <div class="price text-success"><h5 class="mt-4">$10</h5></div>
-                         <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                  <div class="card minmarg">
-                    <img class="card-img" src="../image/barry_white.jpg" alt="Vans">
-                    <div class="card-img-overlay d-flex justify-content-end">
-                      <a href="#" class="card-link text-danger like">
-                        <i class="fas fa-heart"></i>
-                      </a>
-                    </div>
-                    <div class="card-body">
-                      <h4 class="card-title">Barry White</h4>
-                      <h6 class="card-subtitle mb-2 text-muted">Type: Indica</h6>
-                      <p class="card-text">
-                        Barry White Marijuana</p>
-                      <div class="options d-flex flex-fill">
-                          <select class="custom-select mr-1">
-                             <option selected>Size</option>
-                             <option value="1">1G</option>
-                             <option value="2">1/8</option>
-                             <option value="3">1/4</option>
-                             <option value="3">1/2</option>
-                             <option value="3">oz</option>
-                         </select>
-                        <select class="custom-select ml-1">
-                            <option selected>Size</option>
-                            <option value="1">41</option>
-                            <option value="2">42</option>
-                            <option value="3">43</option>
-                        </select>
-                      </div>
-                      <div class="buy d-flex justify-content-between align-items-center">
-                        <div class="price text-success"><h5 class="mt-4">$10</h5></div>
-                         <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                  <div class="card minmarg">
-                    <img class="card-img" src="../image/gorilla_glue.jpg" alt="Vans">
-                    <div class="card-img-overlay d-flex justify-content-end">
-                      <a href="#" class="card-link text-danger like">
-                        <i class="fas fa-heart"></i>
-                      </a>
-                    </div>
-                    <div class="card-body">
-                      <h4 class="card-title">Gorilla Glue</h4>
-                      <h6 class="card-subtitle mb-2 text-muted">Type: Indica</h6>
-                      <p class="card-text">
-                        Gorilla Glue Marijuana</p>
-                      <div class="options d-flex flex-fill">
-                          <select class="custom-select mr-1">
-                             <option selected>Size</option>
-                             <option value="1">1G</option>
-                             <option value="2">1/8</option>
-                             <option value="3">1/4</option>
-                             <option value="3">1/2</option>
-                             <option value="3">oz</option>
-                         </select>
-                        <select class="custom-select ml-1">
-                            <option selected>Size</option>
-                            <option value="1">41</option>
-                            <option value="2">42</option>
-                            <option value="3">43</option>
-                        </select>
-                      </div>
-                      <div class="buy d-flex justify-content-between align-items-center">
-                        <div class="price text-success"><h5 class="mt-4">$125</h5></div>
-                         <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
+        </div> <!-- container .//  -->
+    </section>
     <div class="footer bg-dark w-100">
         <div class="row justify-content-center">
           <div class="col text-center nomarg">
