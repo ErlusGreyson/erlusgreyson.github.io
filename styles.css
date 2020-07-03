@@ -5,43 +5,80 @@ body {
 }
 .mainscreen {
   margin: 0 !important;
-  background-image: url("./image/mk-unsplash.jpg");
+  background-image: url("./image/gerson-unsplash.jpg");
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .mainscreen h1 {
-  letter-spacing: 1rem;
+  letter-spacing: 1.2rem;
   font-size: 4.5vw;
-  padding-top: 18rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-shadow: 0 5px 4px #000000;
+  padding-top: 26rem;
   text-transform: uppercase;
-  color: rgb(230,230,230);
+  color: white;
 }
 .mainscreen h2 {
   letter-spacing: .2rem;
   font-size: 2vw;
+  text-shadow: 0 4px 4px #000000;
   text-transform: uppercase;
-  color: rgb(230,230,230);
+  color: white;
 }
 .navbar{
-  margin-top: 22rem;
+  margin-top: 19rem;
   font-size: 1.3rem;
   text-transform: uppercase;
 }
 .about-screen {
   height: 600px;
-  background-color: rgb(17,17,17);
+  background-color: rgb(36,39,38);
+}
+.about-screen img {
+  margin-top: 6rem;
+  height: 200px;
+  width: 200px;
+}
+.about-screen h1 {
+  padding-top: 6rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-size: 2vw;
+  color: rgb(222,222,222);
 }
 .about-screen h2 {
-  padding-top: 10rem;
+  padding-top: 4rem;
   letter-spacing: .1rem;
   font-size: 1.5vw;
   color: rgb(222,222,222);
 }
 .about-screen p {
   padding-top: 1.5rem;
-  padding-left: 14rem;
-  padding-right: 14rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   font-size: 1.3rem;
+  color: rgb(222,222,222);
+}
+.projects-screen {
+  height: 900px;
+  background-color: rgb(38,50,56);
+}
+.projects-screen img {
+  height: 700px;
+}
+.projects-screen h2 {
+  padding-top: 1rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-size: 2vw;
+  color: rgb(222,222,222);
+}
+.contact-screen h1 {
+  padding-top: 2rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-size: 2vw;
   color: rgb(222,222,222);
 }
